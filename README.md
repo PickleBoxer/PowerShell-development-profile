@@ -1,7 +1,6 @@
 # PowerShell Development Profile
 
-<img width="1293" height="916" alt="image" src="https://github.com/user-attachments/assets/7bab0608-f35b-4fe1-9e36-b383c9fa1f59" />
-
+<img width="1174" height="698" alt="image" src="https://github.com/user-attachments/assets/1d04c09f-529e-445f-810b-ee2c732a07ea" />
 
 Custom PowerShell profile for enhanced terminal experience:
 - Ghost text inline completions
