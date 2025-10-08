@@ -27,9 +27,10 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward  # Down a
 $theme = "$HOME\pickleboxer.omp.json"                     # Path to custom theme
 oh-my-posh init pwsh --config $theme | Invoke-Expression  # Initialize Oh My Posh with theme
 
-# Aliases for faster git commands
-Set-Alias gs 'git status'                                 # 'gs' runs 'git status'
-Set-Alias glog 'git log --oneline --graph --decorate'     # 'glog' shows pretty git log
+# Functions for faster command execution
+function pn { pnpm $args }                                 # 'pn' runs 'pnpm'
+function gs { git status }                                 # 'gs' runs 'git status'
+function glog { git log --oneline --graph --decorate }     # 'glog' shows pretty git log
 
 # This key handler shows the entire or filtered history using Out-GridView. The
 # typed text is used as the substring pattern for filtering. A selected command
